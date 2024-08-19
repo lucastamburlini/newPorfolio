@@ -16,15 +16,19 @@ export default function Header() {
         <Logo />
         <div className="flex items-center gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="https://lucastamburlini.vercel.app/"
             className="text-sm font-medium hover:underline underline-offset-4"
+            target="_blank"
             prefetch={false}
           >
             Portfolio
           </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon">
+              <Button
+                size="icon"
+                className="text-sm text-foreground bg-transparent font-medium hover:border hover:rounded-full w-8 h-8 focus:outline-none"
+              >
                 <GlobeIcon className="h-5 w-5" />
                 <span className="sr-only">Language</span>
               </Button>
