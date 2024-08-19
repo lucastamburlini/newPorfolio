@@ -15,6 +15,13 @@ export default function Header() {
       <nav className="flex items-center justify-between max-w-5xl m-auto">
         <Logo />
         <div className="flex items-center gap-4 sm:gap-6">
+          <Link
+            href="#"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}
+          >
+            Portfolio
+          </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
@@ -23,17 +30,10 @@ export default function Header() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              <DropdownMenuItem>English</DropdownMenuItem>
               <DropdownMenuItem>Español</DropdownMenuItem>
+              <DropdownMenuItem>English</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}
-          >
-            Portfolio
-          </Link>
         </div>
       </nav>
     </header>
