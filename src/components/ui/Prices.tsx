@@ -8,7 +8,6 @@ import {
   CardTitle,
 } from "../shadcn/card";
 import { TypographyH3 } from "../shadcn/typographyH3";
-import { TypographyLead } from "../shadcn/typographyLead";
 
 const pricingOptions = [
   {
