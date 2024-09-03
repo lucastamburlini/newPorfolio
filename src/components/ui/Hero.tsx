@@ -1,35 +1,65 @@
-import Image from "next/image";
-import { Button } from "../shadcn/button";
-import { TypographyH1 } from "../shadcn/typographyH1";
-import { TypographyLead } from "../shadcn/typographyLead";
+import Link from "next/link";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
-const title = "Diseño de Páginas y Aplicaciones Web";
-const subTitle =
-  "Desarrollamos soluciones digitales que elevan tu presencia en línea y te ayudan a conectar con tus clientes.";
+const ContactList = () => {
+  return (
+    <div className="flex gap-4 ">
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+        <Link
+          href={"https://www.linkedin.com/in/lucastamburlini/"}
+          target="_blank"
+          className="flex items-center gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+        >
+          <FaLinkedin className="size-4" />
+          LinkedIn
+        </Link>
+      </button>
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+        <Link
+          href="https://github.com/lucastamburlini"
+          target="_blank"
+          className="flex items-center  gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+        >
+          <FaGithub className="size-4" />
+          GitHub
+        </Link>
+      </button>
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+        <Link
+          href="mailto:lucastamburlini@gmail.com"
+          target="_blank"
+          className="flex items-center gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+        >
+          <FaEnvelope className="size-4" />
+          lucastamburlini@gmail.com
+        </Link>
+      </button>
+    </div>
+  );
+};
 
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-3 md:gap-6 w-full py-10 sm:py-20 lg:py-28 text-center">
-      <div className="flex w-full m-auto justify-center items-center">
-        <Image
-          src={"/brand/webLogo.png"}
-          alt="web-logo"
-          width={100}
-          height={100}
-        />
-      </div>
-      <div className="flex flex-col space-y-4 max-w-[600px] m-auto">
-        <TypographyH1 text={title} />
-        <TypographyLead text={subTitle} />
-      </div>
-      <div className="flex flex-col w-full items-center justify-center">
-        <Button
-          variant={"accent"}
-          className="w-[200px] hover:bg-gradient-primary-secondary"
-        >
-          Contacto
-        </Button>
+    <section className="flex flex-col gap-3 md:gap-6 w-full py-10 sm:py-28 lg:py-40">
+      <div className="flex flex-col space-y-4 max-w-2xl">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          ¡Hola! Soy Lucas Tamburlini
+        </h1>
+        <p className="text-xl text-muted-foreground">
+          Más de 2 años programando |{" "}
+          <span className="text-secondary">
+            Desarrollador Full Stack y Analista en Gestión de Capital Humano
+          </span>
+          | Entre Ríos, Argentina 🇦🇷
+        </p>
+        <ContactList />
       </div>
     </section>
   );
 }
+
+/* 
+
+
+
+*/

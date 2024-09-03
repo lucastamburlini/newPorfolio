@@ -1,14 +1,13 @@
+import Image from "next/image";
 export default function Logo() {
   return (
     <div>
-      <h1 
-        className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
-        style={{
-          textShadow: '0 0 15px rgba(255, 255, 255, 0.2)'
-        }}
-      >
-        Lucas Tamburlini
-      </h1>
+      <Image
+        src={"/brand/webLogo.png"}
+        alt="web-logo"
+        width={40}
+        height={40}
+      />
     </div>
   );
 }
