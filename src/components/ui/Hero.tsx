@@ -8,7 +8,7 @@ const ContactList = () => {
         <Link
           href={"https://www.linkedin.com/in/lucastamburlini/"}
           target="_blank"
-          className="flex items-center gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+          className="flex items-center gap-2 px-4 py-1.5 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
         >
           <FaLinkedin className="size-4" />
           LinkedIn
@@ -18,7 +18,7 @@ const ContactList = () => {
         <Link
           href="https://github.com/lucastamburlini"
           target="_blank"
-          className="flex items-center  gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+          className="flex items-center  gap-2 px-4 py-1.5 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
         >
           <FaGithub className="size-4" />
           GitHub
@@ -28,7 +28,7 @@ const ContactList = () => {
         <Link
           href="mailto:lucastamburlini@gmail.com"
           target="_blank"
-          className="flex items-center gap-2 px-4 py-2 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
+          className="flex items-center gap-2 px-4 py-1.5 transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0"
         >
           <FaEnvelope className="size-4" />
           lucastamburlini@gmail.com
@@ -40,8 +40,8 @@ const ContactList = () => {
 
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-3 md:gap-6 w-full py-10 sm:py-28 lg:py-40">
-      <div className="flex flex-col space-y-4 max-w-2xl">
+    <header className="flex flex-col w-full py-16 sm:py-28 lg:py-40">
+      <div className="flex flex-col gap-2 md:gap-4 max-w-2xl">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           ¡Hola! Soy Lucas Tamburlini
         </h1>
@@ -54,7 +54,7 @@ export default function Hero() {
         </p>
         <ContactList />
       </div>
-    </section>
+    </header>
   );
 }
 
