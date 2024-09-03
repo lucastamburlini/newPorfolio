@@ -48,8 +48,8 @@ export default function Hero() {
         <p className="text-xl text-muted-foreground">
           Más de 2 años programando |{" "}
           <span className="text-secondary">
-            Desarrollador Full Stack y Analista en Gestión de Capital Humano
-          </span>
+            Desarrollador Full Stack y Analista en Gestión de Capital Humano {" "}
+          </span> 
           | Entre Ríos, Argentina 🇦🇷
         </p>
         <ContactList />
