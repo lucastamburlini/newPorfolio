@@ -1,10 +1,13 @@
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="w-full h-auto py-6">
-      <div className="flex items-center justify-between m-auto">
+    <footer className="w-full h-auto py-section-y">
+      <div className="flex flex-col md:flex-row gap-6 justify-between m-auto">
         <div>
-          <p>&copy; {new Date().getFullYear()}</p>
+          <h1>Lucas Tamburlini</h1>
+          <div>
+            <p>&copy; {new Date().getFullYear()} - Hecho con </p>
+          </div>
         </div>
         <div className="flex space-x-4">
           <Link

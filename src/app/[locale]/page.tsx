@@ -3,6 +3,7 @@ import Footer from "@/components/ui/Footer";
 import Hero from "@/components/ui/Hero";
 import Navbar from "@/components/ui/Navbar";
 import Projects from "@/components/ui/Projects";
+import Stack from "@/components/ui/Stack";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Experiences />
         <Projects />
+        <Stack />
       </main>
       <footer>
         <Footer />
