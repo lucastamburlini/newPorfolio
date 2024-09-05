@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="w-full h-auto">
+    <footer className="w-full h-auto py-6">
       <div className="flex items-center justify-between m-auto">
         <div>
           <p>&copy; {new Date().getFullYear()}</p>

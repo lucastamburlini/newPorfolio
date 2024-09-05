@@ -40,7 +40,7 @@ const ContactList = () => {
 
 export default function Hero() {
   return (
-    <header className="flex flex-col w-full py-16 sm:py-28 lg:py-40">
+    <header className="flex flex-col w-full py-20 sm:py-40 lg:py-60">
       <div className="flex flex-col gap-2 md:gap-4 max-w-2xl">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           ¡Hola! Soy Lucas Tamburlini

@@ -64,6 +64,9 @@ const config = {
       transitionDuration: {
         "1000": "1000ms",
       },
+      padding: {
+        'section-y': '5rem', 
+      },
     },
   },
   plugins: [],
