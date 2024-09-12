@@ -34,9 +34,12 @@
       "description3": "Creé un proyecto SPA individual con React, CSS y Redux, integrando la PokeApi para gestionar datos de más de 450 Pokémon. Desarrollé otra SPA con React, Redux y CSS, utilizando la API de Rick & Morty para funciones de búsqueda, filtrado y autenticación."
     }
   },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Estos proyectos son los que realmente marcaron una diferencia en mi carrera. Tengo muchos en mi portafolio, pero quiero destacar estos dos en particular porque son los que más me apasionan y en los que más aprendí. Espero que te gusten tanto como a mí."
+  },
   "stacks": {
     "title": "Mis Habilidades",
-    "subtitle": "Tecnologías que Impulsan Mis Proyectos",
     "description": "Explora las herramientas y tecnologías que utilizo para construir aplicaciones robustas, escalables y amigables con el usuario.",
     "items": {
       "frontend": {
@@ -60,5 +63,8 @@
         "description": "Realizo pruebas exhaustivas con herramientas como Postman, Mocha, Jest, Playwright y Gherkin, aplicando metodologías de testing exploratorio y convencionales para asegurar la calidad del software."
       }
     }
+  },
+  "footer": {
+    "text": "Cada día, creciendo, aprendiendo y progresando un paso a la vez."
   }
 }

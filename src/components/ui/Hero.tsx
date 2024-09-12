@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 const ContactList = () => {
   return (
     <div className="flex flex-wrap gap-4 ">
-      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-lg group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
         <Link
           href={"https://www.linkedin.com/in/lucastamburlini/"}
           target="_blank"
@@ -15,7 +15,7 @@ const ContactList = () => {
           LinkedIn
         </Link>
       </button>
-      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-lg group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
         <Link
           href="https://github.com/lucastamburlini"
           target="_blank"
@@ -25,7 +25,7 @@ const ContactList = () => {
           GitHub
         </Link>
       </button>
-      <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
+      <button className="relative items-center justify-center overflow-hidden text-sm rounded-lg group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
         <Link
           href="mailto:lucastamburlini@gmail.com"
           target="_blank"

@@ -36,7 +36,6 @@
   },
   "stacks": {
     "title": "My Skills",
-    "subtitle": "Technologies That Power My Projects",
     "description": "Explore the tools and technologies I use to build robust, scalable, and user-friendly applications.",
     "items": {
       "frontend": {
@@ -60,5 +59,8 @@
         "description": "I conduct thorough testing using tools like Postman, Mocha, Jest, Playwright, and Gherkin, applying exploratory and conventional testing methodologies to ensure software quality."
       }
     }
+  },
+  "footer": {
+    "text": "Every day, growing, learning, and progressing one step at a time."
   }
 }

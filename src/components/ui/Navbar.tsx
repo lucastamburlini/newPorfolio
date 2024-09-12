@@ -29,7 +29,7 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
       } md:flex`}
     >
       {navItems.map(({ key, section }) => (
-        <li key={key} onClick={onClose}>
+        <li key={key} onClick={onClose} className="hover:text-secondary transition-all duration-transitionDuration">
           <Link href={section}>{t(key)}</Link>
         </li>
       ))}
