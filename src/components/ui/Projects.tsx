@@ -4,13 +4,13 @@ export default function Projects() {
   return (
     <section id="projects" className="py-12 md:py-16 lg:py-20">
       <div className="py-section-y">
-      <h2 className="flex items-center gap-2 sm:gap-4 text-3xl font-bold sm:text-2xl md:text-3xl">
-      <HiMiniBriefcase  className="size-6" /> Projects
+        <h2 className="flex items-center gap-2 sm:gap-4 text-3xl font-bold sm:text-2xl md:text-3xl">
+          <HiMiniBriefcase className="size-6" /> Projects
         </h2>
         <div className="mt-8 flex flex-col gap-8">
           <div className="flex flex-col items-start">
             <img
-              src="/placeholder.svg"
+              src="/"
               width={640}
               height={360}
               alt="Project 1"
@@ -27,7 +27,7 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start">
             <img
-              src="/placeholder.svg"
+              src="/"
               width={640}
               height={360}
               alt="Project 2"
@@ -43,7 +43,7 @@ export default function Projects() {
           </div>
           <div className="flex flex-col items-start">
             <img
-              src="/placeholder.svg"
+              src="/"
               width={640}
               height={360}
               alt="Project 3"

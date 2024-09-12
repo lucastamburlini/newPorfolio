@@ -1,8 +1,64 @@
 {
-    "NavLinks": {
-      "experience": "Experiencia",
-      "projects": "Proyectos",
-      "about-me": "Sobre mí"
+  "navLinks": {
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "stacks": "Herramientas",
+    "about-me": "Sobre mí"
+  },
+  "hero": {
+    "greeting": "¡Hola! Soy Lucas Tamburlini",
+    "description": "Llevo más de 2 años programando y disfruto cada día hacerlo",
+    "role": "Desarrollador Full Stack y Analista Universitario en Gestión de Capital Humano",
+    "location": "Entre Ríos, Argentina 🇦🇷",
+    "contacts": "Puedes ponerte en contacto conmigo a través de mis redes sociales"
+  },
+  "experiences": {
+    "sectionTitle": "Experiencia laboral",
+    "item1": {
+      "title": "Desarrollador Full Stack",
+      "subtitle": "Planify (Estados Unidos) | May 2024 • Ago 2024 | Contrato",
+      "description1": "Formé parte del equipo de desarrollo enfocado en la mejora continua de una plataforma para la gestión de citas en centros de belleza. Desarrollamos el proyecto utilizando Next.js 14, NestJS y Prisma para garantizar eficiencia y escalabilidad.",
+      "description2": "Utilicé Supabase para la gestión de datos y Tailwind CSS para el diseño de interfaces. Integré PostHog para la gestión de funciones y el análisis de uso en tiempo real."
+    },
+    "item2": {
+      "title": "Desarrollador Full Stack",
+      "subtitle": "Flexwork LATAM (Perú) | Ene 2024 • Feb 2024 | Independiente",
+      "description1": "Lideré el desarrollo de una plataforma web que conecta proyectos, profesionales y empresas. Utilicé React y Tailwind CSS para el diseño.",
+      "description2": "Implementé funciones de autenticación y gestión de archivos con Firebase. Desarrollé el backend con Node.js, Express y Sequelize, utilizando PostgreSQL para la base de datos."
+    },
+    "item3": {
+      "title": "Desarrollador Full Stack",
+      "subtitle": "Henry (Buenos Aires) | Jul 2023 • Feb 2024 | Contrato de Formación",
+      "description1": "Utilicé React y Tailwind CSS para diseñar una plataforma web que conecta proyectos, profesionales y empresas. Implementé autenticación y gestión de archivos con Firebase.",
+      "description2": "Desarrollé el backend con Node.js, Express y Sequelize, utilizando PostgreSQL para la base de datos.",
+      "description3": "Creé un proyecto SPA individual con React, CSS y Redux, integrando la PokeApi para gestionar datos de más de 450 Pokémon. Desarrollé otra SPA con React, Redux y CSS, utilizando la API de Rick & Morty para funciones de búsqueda, filtrado y autenticación."
+    }
+  },
+  "stacks": {
+    "title": "Mis Habilidades",
+    "subtitle": "Tecnologías que Impulsan Mis Proyectos",
+    "description": "Explora las herramientas y tecnologías que utilizo para construir aplicaciones robustas, escalables y amigables con el usuario.",
+    "items": {
+      "frontend": {
+        "title": "Front End",
+        "description": "Utilizo tecnologías modernas de front-end como HTML, CSS, JavaScript, React, Sass, Bootstrap, Redux, Next.js, Tailwind CSS y TypeScript para construir interfaces de usuario atractivas y funcionales."
+      },
+      "backend": {
+        "title": "Back End",
+        "description": "Desarrollo del lado del servidor con Node.js, Express, Sequelize, NestJS y Prisma para construir aplicaciones web robustas y escalables."
+      },
+      "databases": {
+        "title": "Bases de Datos",
+        "description": "Trabajo con MongoDB, PostgreSQL y Supabase para gestionar datos de manera eficiente y confiable en mis aplicaciones."
+      },
+      "design-tools": {
+        "title": "Diseño y Herramientas",
+        "description": "Utilizo Adobe Photoshop, Canva, CorelDRAW y Figma para crear diseños visuales impactantes y colaboro usando herramientas como Trello, Jira, Notion y Miro para gestionar proyectos de manera efectiva."
+      },
+      "testing": {
+        "title": "Testing",
+        "description": "Realizo pruebas exhaustivas con herramientas como Postman, Mocha, Jest, Playwright y Gherkin, aplicando metodologías de testing exploratorio y convencionales para asegurar la calidad del software."
+      }
     }
   }
-  
+}

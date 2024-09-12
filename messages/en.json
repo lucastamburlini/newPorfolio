@@ -1,7 +1,64 @@
 {
-  "NavLinks": {
+  "navLinks": {
     "experience": "Experience",
     "projects": "Projects",
+    "stacks": "Tools",
     "about-me": "About Me"
+  },
+  "hero": {
+    "greeting": "Hi! I'm Lucas Tamburlini",
+    "description": "I've been programming for over 2 years and I enjoy doing it every day",
+    "role": "Full Stack Developer and University Analyst in Human Capital Management",
+    "location": "Entre Ríos, Argentina 🇦🇷",
+    "contacts": "You can reach me through my social"
+  },
+  "experiences": {
+    "sectionTitle": "Work Experience",
+    "item1": {
+      "title": "Full Stack Developer",
+      "subtitle": "Planify (United States) | May 2024 • Aug 2024 | Contract",
+      "description1": "I was part of the development team focused on the continuous improvement of a platform for managing appointments at beauty centers. We developed the project using Next.js 14, NestJS, and Prisma to ensure efficiency and scalability.",
+      "description2": "I used Supabase for data management and Tailwind CSS for interface design. I integrated PostHog for feature management and real-time usage analysis."
+    },
+    "item2": {
+      "title": "Full Stack Developer",
+      "subtitle": "Flexwork LATAM (Peru) | Jan 2024 • Feb 2024 | Freelance",
+      "description1": "I led the development of a web platform that connects projects, professionals, and companies. I used React and Tailwind CSS for the design.",
+      "description2": "I implemented authentication and file management functions with Firebase. I developed the backend with Node.js, Express, and Sequelize, using PostgreSQL for the database."
+    },
+    "item3": {
+      "title": "Full Stack Developer",
+      "subtitle": "Henry (Buenos Aires) | Jul 2023 • Feb 2024 | Training Contract",
+      "description1": "I used React and Tailwind CSS to design a web platform that connects projects, professionals, and companies. I implemented authentication and file management with Firebase.",
+      "description2": "I developed the backend with Node.js, Express, and Sequelize, using PostgreSQL for the database.",
+      "description3": "I created an individual SPA project with React, CSS, and Redux, integrating the PokeApi to manage data for over 450 Pokémon. I also developed another SPA with React, Redux, and CSS, using the Rick & Morty API for search, filtering, and authentication functions."
+    }
+  },
+  "stacks": {
+    "title": "My Skills",
+    "subtitle": "Technologies That Power My Projects",
+    "description": "Explore the tools and technologies I use to build robust, scalable, and user-friendly applications.",
+    "items": {
+      "frontend": {
+        "title": "Front End",
+        "description": "I use modern front-end technologies like HTML, CSS, JavaScript, React, Sass, Bootstrap, Redux, Next.js, Tailwind CSS, and TypeScript to build attractive and functional user interfaces."
+      },
+      "backend": {
+        "title": "Back End",
+        "description": "I develop server-side applications using Node.js, Express, Sequelize, NestJS, and Prisma to build scalable web applications."
+      },
+      "databases": {
+        "title": "Databases",
+        "description": "I work with MongoDB, PostgreSQL, and Supabase to efficiently and reliably manage data in my applications."
+      },
+      "design-tools": {
+        "title": "Design and Tools",
+        "description": "I use Adobe Photoshop, Canva, CorelDRAW, and Figma to create impactful designs and collaborate using tools like Trello, Jira, Notion, and Miro to effectively manage projects."
+      },
+      "testing": {
+        "title": "Testing",
+        "description": "I conduct thorough testing using tools like Postman, Mocha, Jest, Playwright, and Gherkin, applying exploratory and conventional testing methodologies to ensure software quality."
+      }
+    }
   }
 }

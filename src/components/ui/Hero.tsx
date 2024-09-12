@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const ContactList = () => {
   return (
-    <div className="flex gap-4 ">
+    <div className="flex flex-wrap gap-4 ">
       <button className="relative items-center justify-center overflow-hidden text-sm rounded-full group bg-gradient-to-br from-primary to-secondary group-hover:from-primary group-hover:to-secondary text-white border border-white">
         <Link
           href={"https://www.linkedin.com/in/lucastamburlini/"}
@@ -39,27 +40,24 @@ const ContactList = () => {
 };
 
 export default function Hero() {
+  const t = useTranslations();
+
   return (
     <header className="flex flex-col w-full py-16 sm:py-24 lg:py-36">
       <div className="flex flex-col gap-2 md:gap-4 max-w-2xl">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          ¡Hola! Soy Lucas Tamburlini
+          {t("hero.greeting")}
         </h1>
         <p className="text-xl text-muted-foreground">
-          Más de 2 años programando |{" "}
-          <span className="text-secondary">
-            Desarrollador Full Stack y Analista en Gestión de Capital Humano {" "}
-          </span> 
-          | Entre Ríos, Argentina 🇦🇷
+          {t("hero.description")} |{" "}
+          <span className="text-secondary">{t("hero.role")} </span>|{" "}
+          {t("hero.location")}
+        </p>
+        <p className="mt-4 text-lg text-muted-foreground">
+          {t("hero.contacts")}
         </p>
         <ContactList />
       </div>
     </header>
   );
 }
-
-/* 
-
-
-
-*/
