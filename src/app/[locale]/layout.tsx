@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Progress from "@/components/common/Progress";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +39,8 @@ export default async function LocaleLayout({
           </NextIntlClientProvider>
         </div>
         <Progress />
+        {/* Integración de Vercel Analytics */}
+        <Analytics />
         {/* Integración de Google Analytics */}
         <GoogleAnalytics gaId="G-7DLCC42JBW" />
       </body>
