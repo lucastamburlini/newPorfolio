@@ -19,7 +19,6 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
     { key: "experience", section: "/#experience" },
     { key: "projects", section: "/#projects" },
     { key: "stacks", section: "/#stacks" },
-    { key: "about-me", section: "/#about-me" },
   ];
 
   return (
@@ -29,7 +28,11 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
       } md:flex`}
     >
       {navItems.map(({ key, section }) => (
-        <li key={key} onClick={onClose} className="hover:text-secondary transition-all duration-transitionDuration">
+        <li
+          key={key}
+          onClick={onClose}
+          className="hover:text-secondary transition-all duration-transitionDuration"
+        >
           <Link href={section}>{t(key)}</Link>
         </li>
       ))}
@@ -47,7 +50,7 @@ const Navbar = () => {
   return (
     <nav className="flex w-full items-center max-w-5xl m-auto py-4 sm:py-6 relative">
       <div className="flex w-full items-center justify-between">
-      <Image src="/brand/webLogo.png" alt="web-logo" width={40} height={40} />
+        <Image src="/brand/webLogo.png" alt="web-logo" width={40} height={40} />
         <div className="hidden md:flex items-center gap-4 sm:gap-10">
           <Navigation isOpen={false} onClose={() => setIsOpen(false)} />
           <LanguageSelector />

@@ -29,6 +29,7 @@ const LanguageSelector = () => {
       `/${lang}`
     );
     router.push(currentPath);
+    router.refresh();
   };
 
   return (
