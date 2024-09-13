@@ -10,8 +10,8 @@ export default function Footer() {
   return (
     <footer>
       <div className="py-section-y flex flex-col md:flex-row items-center justify-between gap-10">
-        <div className="flex md:flex-col gap-5">
-          <div className="flex min-w-10 items-center justify-start">
+        <div className="flex flex-col text-center md:text-start gap-5">
+          <div className="flex min-w-10 items-center justify-center md:justify-start">
             <Image
               src="/brand/webLogo.png"
               alt="web-logo"
