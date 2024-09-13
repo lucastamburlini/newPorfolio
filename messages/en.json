@@ -34,6 +34,20 @@
       "description3": "I created an individual SPA project with React, CSS, and Redux, integrating the PokeApi to manage data for over 450 Pokémon. I also developed another SPA with React, Redux, and CSS, using the Rick & Morty API for search, filtering, and authentication functions."
     }
   },
+  "projects": {
+    "title": "Projects",
+    "description": "These projects have truly made a difference in my career. I have many in my portfolio, but I want to highlight these two in particular because they are the ones I am most passionate about and where I learned the most. I hope you like them as much as I do.",
+    "planify": {
+      "title": "Planify",
+      "description": "Web and mobile application for managing appointments in beauty centers.",
+      "details": "Planify is a private and paid web application designed to manage beauty centers. Its main function is appointment booking and management. It also allows for staff management and detailed company configuration, providing comprehensive control over services."
+    },
+    "gpi360": {
+      "title": "GPI360",
+      "description": "Web and mobile application for comprehensive business management of all types.",
+      "details": "GPI360 is a personal project developed together with a partner, aimed at entrepreneurs and small to medium-sized businesses. Its goal is to offer a complete solution for managing a business, allowing stock control, invoicing and AFIP ticket issuance, performance statistics, and user management. The platform aims to be flexible and adaptable to different types of businesses. A demo will be available soon to explore its features."
+    }
+  },
   "stacks": {
     "title": "My Skills",
     "description": "Explore the tools and technologies I use to build robust, scalable, and user-friendly applications.",

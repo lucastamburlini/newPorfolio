@@ -12,13 +12,13 @@ export default function Stacks() {
   const t = useTranslations("stacks");
 
   return (
-    <section id="stacks" className="py-12 md:py-16 lg:py-20">
+    <section id="stacks">
       <div className="py-section-y">
         <h2 className="flex items-center gap-2 sm:gap-4 text-3xl font-bold sm:text-2xl md:text-3xl">
           <HiCog className="size-6" /> {t("title")}
         </h2>
         <p className="mt-2 text-muted-foreground">{t("description")}</p>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <div className="mt-8 mx-auto max-w-2xl lg:max-w-4xl">
           <div className="flex flex-wrap w-full m-auto justify-center gap-10">
             {/* Front-End */}
             <div className="flex gap-3 sm:gap-6">

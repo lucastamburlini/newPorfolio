@@ -36,7 +36,17 @@
   },
   "projects": {
     "title": "Proyectos",
-    "description": "Estos proyectos son los que realmente marcaron una diferencia en mi carrera. Tengo muchos en mi portafolio, pero quiero destacar estos dos en particular porque son los que más me apasionan y en los que más aprendí. Espero que te gusten tanto como a mí."
+    "description": "Estos proyectos son los que realmente marcaron una diferencia en mi carrera. Tengo muchos en mi portafolio, pero quiero destacar estos dos en particular porque son los que más me apasionan y en los que más aprendí. Espero que te gusten tanto como a mí.",
+    "planify": {
+      "title": "Planify",
+      "description": "Aplicación web y móvil para la gestión de citas en centros de belleza.",
+      "details": "Planify es una aplicación web privada y de acceso pago. Está diseñada para gestionar centros de belleza, cuya principal función es la reserva y administración de citas. Además, permite la gestión del personal y la configuración detallada de la empresa, facilitando el control integral de los servicios."
+    },
+    "gpi360": {
+      "title": "GPI360",
+      "description": "Aplicación web y móvil para la gestión integral de negocios de todo tipo.",
+      "details": "GPI360 es un proyecto personal desarrollado junto con un compañero, dirigido a emprendedores y pequeñas o medianas empresas. Su objetivo es ofrecer una solución completa para gestionar su negocio, permitiendo el control de stock, emisión de facturas y tickets de AFIP, estadísticas de rendimiento y administración de usuarios. La plataforma busca ser flexible y adaptable a distintos tipos de negocios. Próximamente estará disponible una demo para explorar sus funcionalidades."
+    }
   },
   "stacks": {
     "title": "Mis Habilidades",
