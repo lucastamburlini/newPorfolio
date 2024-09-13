@@ -4,6 +4,7 @@ import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Progress from "@/components/common/Progress";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,6 +38,24 @@ export default async function LocaleLayout({
           </NextIntlClientProvider>
         </div>
         <Progress />
+        {/* Integración de Google Analytics */}
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+        >
+          {`
+            (function() {
+              var gtag = function() { window.dataLayer.push(arguments); };
+              window.dataLayer = window.dataLayer || [];
+              gtag('js', new Date());
+              gtag('config', 'G-7DLCC42JBW');
+            })();
+          `}
+        </Script>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-7DLCC42JBW"
+        />
       </body>
     </html>
   );
