@@ -7,14 +7,14 @@
   "hero": {
     "greeting": "¡Hola! Soy Lucas Tamburlini",
     "description": "Llevo más de 2 años programando y disfruto cada día hacerlo",
-    "role": "Desarrollador Full Stack y Analista Universitario en Gestión de Capital Humano",
+    "role": "Desarrollador Frontend y Analista Universitario en Gestión de Capital Humano",
     "location": "Entre Ríos, Argentina 🇦🇷",
     "contacts": "Puedes ponerte en contacto conmigo a través de mis redes sociales"
   },
   "experiences": {
     "sectionTitle": "Experiencia laboral",
     "item1": {
-      "title": "Desarrollador Full Stack",
+      "title": "Desarrollador Frontend",
       "subtitle": "Planify (Estados Unidos) | May 2024 • Ago 2024 | Contrato",
       "description1": "Formé parte del equipo de desarrollo enfocado en la mejora continua de una plataforma para la gestión de citas en centros de belleza. Desarrollamos el proyecto utilizando Next.js 14, NestJS y Prisma para garantizar eficiencia y escalabilidad.",
       "description2": "Utilicé Supabase para la gestión de datos y Tailwind CSS para el diseño de interfaces. Integré PostHog para la gestión de funciones y el análisis de uso en tiempo real."

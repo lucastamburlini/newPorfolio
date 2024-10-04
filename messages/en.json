@@ -7,14 +7,14 @@
   "hero": {
     "greeting": "Hi! I'm Lucas Tamburlini",
     "description": "I've been programming for over 2 years and I enjoy doing it every day",
-    "role": "Full Stack Developer and University Analyst in Human Capital Management",
+    "role": "Frontend Developer and University Analyst in Human Capital Management",
     "location": "Entre Ríos, Argentina 🇦🇷",
     "contacts": "You can reach me through my social"
   },
   "experiences": {
     "sectionTitle": "Work Experience",
     "item1": {
-      "title": "Full Stack Developer",
+      "title": "Frontend Developer",
       "subtitle": "Planify (United States) | May 2024 • Aug 2024 | Contract",
       "description1": "I was part of the development team focused on the continuous improvement of a platform for managing appointments at beauty centers. We developed the project using Next.js 14, NestJS, and Prisma to ensure efficiency and scalability.",
       "description2": "I used Supabase for data management and Tailwind CSS for interface design. I integrated PostHog for feature management and real-time usage analysis."
