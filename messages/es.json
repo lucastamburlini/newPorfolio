@@ -44,7 +44,8 @@
     "gpi360": {
       "title": "GPI360",
       "description": "Aplicación web y móvil para la gestión integral de negocios de todo tipo.",
-      "details": "GPI360 es un proyecto personal desarrollado junto con un compañero, dirigido a emprendedores y pequeñas o medianas empresas. Su objetivo es ofrecer una solución completa para gestionar su negocio, permitiendo el control de stock, emisión de facturas y tickets de AFIP, estadísticas de rendimiento y administración de usuarios. La plataforma busca ser flexible y adaptable a distintos tipos de negocios. Actualmente, el proyecto está en desarrollo, y próximamente estará disponible una demo para explorar sus funcionalidades."
+      "details": "GPI360 es un proyecto personal desarrollado junto con un compañero, dirigido a emprendedores y pequeñas o medianas empresas. Su objetivo es ofrecer una solución completa para gestionar su negocio, permitiendo el control de stock, emisión de facturas y tickets de AFIP, estadísticas de rendimiento y administración de usuarios. La plataforma busca ser flexible y adaptable a distintos tipos de negocios. Actualmente, el proyecto está en desarrollo, y próximamente estará disponible una demo para explorar sus funcionalidades.",
+      "moreInfo": "¿Te interesa saber más sobre GPI360? Hacé click en este"
     }
   },
   "stacks": {

@@ -44,7 +44,8 @@
     "gpi360": {
       "title": "GPI360",
       "description": "Web and mobile application for comprehensive business management of all types.",
-      "details": "GPI360 is a personal project developed in collaboration with a colleague, aimed at entrepreneurs and small to medium-sized businesses. Its goal is to provide a comprehensive solution for managing their business, including inventory control, AFIP invoice and ticket issuance, performance statistics, and user management. The platform seeks to be flexible and adaptable to various types of businesses. The project is currently under development, and a demo will be available soon to explore its features."
+      "details": "GPI360 is a personal project developed in collaboration with a colleague, aimed at entrepreneurs and small to medium-sized businesses. Its goal is to provide a comprehensive solution for managing their business, including inventory control, AFIP invoice and ticket issuance, performance statistics, and user management. The platform seeks to be flexible and adaptable to various types of businesses. The project is currently under development, and a demo will be available soon to explore its features.",
+      "moreInfo": "Interested in learning more about GPI360? Click on this"
     }
   },
   "stacks": {

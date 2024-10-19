@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { HiMiniBriefcase } from "react-icons/hi2";
 import { Badge } from "../shadcn/badge";
+import Link from "next/link";
 
 export default function Projects() {
   const t = useTranslations("projects");
@@ -51,12 +52,15 @@ export default function Projects() {
               </picture>
             </div>
             <div className="relative pl-6 border-l-2">
-              <h3 className="text-xl font-bold text-secondary"> {t("planify.title")}</h3>
+              <h3 className="text-xl font-bold text-secondary">
+                {" "}
+                {t("planify.title")}
+              </h3>
               <p className="mt-1 text-secondary-foreground">
-              {t("planify.description")}
+                {t("planify.description")}
               </p>
               <div className="mt-4 space-y-2 text-muted-foreground">
-              {t("planify.details")}
+                {t("planify.details")}
               </div>
               <div className="flex flex-wrap mt-4 gap-2 pb-2">
                 <Badge variant={"default"} className="text-accent">
@@ -100,12 +104,26 @@ export default function Projects() {
               </picture>
             </div>
             <div className="relative pl-6 border-l-2">
-              <h3 className="text-xl font-bold text-secondary">{t("gpi360.title")}</h3>
+              <h3 className="text-xl font-bold text-secondary">
+                {t("gpi360.title")}
+              </h3>
               <p className="mt-1 text-secondary-foreground">
                 {t("gpi360.description")}
               </p>
               <div className="mt-4 space-y-2 text-muted-foreground">
                 {t("gpi360.details")}
+              </div>
+              <div className="mt-4 space-y-2 text-muted-foreground">
+                {t("gpi360.moreInfo")}{" "}
+                <Link
+                  href={"https://presentacion-gpi360-nukezdo.gamma.site/"}
+                  className="text-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  link
+                </Link>
+                .
               </div>
               <div className="flex flex-wrap mt-4 gap-2 pb-2">
                 <Badge variant={"default"} className="text-accent">
