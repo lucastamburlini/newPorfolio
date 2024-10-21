@@ -15,7 +15,7 @@
     "sectionTitle": "Work Experience",
     "item1": {
       "title": "Frontend Developer",
-      "subtitle": "Planify (United States) | May 2024 • Aug 2024 | Contract",
+      "subtitle": "Planify (United States) | May 2024 • At present | Contract",
       "description1": "I was part of the development team focused on the continuous improvement of a platform for managing appointments at beauty centers. We developed the project using Next.js 14, NestJS, and Prisma to ensure efficiency and scalability.",
       "description2": "I used Supabase for data management and Tailwind CSS for interface design. I integrated PostHog for feature management and real-time usage analysis."
     },

@@ -15,7 +15,7 @@
     "sectionTitle": "Experiencia laboral",
     "item1": {
       "title": "Desarrollador Frontend",
-      "subtitle": "Planify (Estados Unidos) | May 2024 • Ago 2024 | Contrato",
+      "subtitle": "Planify (Estados Unidos) | May 2024 • En la actualidad | Contrato",
       "description1": "Formé parte del equipo de desarrollo enfocado en la mejora continua de una plataforma para la gestión de citas en centros de belleza. Desarrollamos el proyecto utilizando Next.js 14, NestJS y Prisma para garantizar eficiencia y escalabilidad.",
       "description2": "Utilicé Supabase para la gestión de datos y Tailwind CSS para el diseño de interfaces. Integré PostHog para la gestión de funciones y el análisis de uso en tiempo real."
     },
